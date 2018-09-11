@@ -1,0 +1,3 @@
+[submodule "themes/hugo-tracks-theme"]
+	path = themes/hugo-tracks-theme
+	url = https://github.com/hmlu36/hugo-tracks-theme.git
