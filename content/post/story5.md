@@ -1,8 +1,8 @@
 +++
 draft = false 
-image = "images/story5_c_t.png" 
+image = "/images/story5_c_t.png" 
 showonlyimage = true 
 title = "第5課" 
 weight = 5 
-path = "data/story5.json" 
+path = "/data/story5.json" 
 +++

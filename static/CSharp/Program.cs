@@ -18,11 +18,11 @@ namespace CSharp {
             string content =  
                 "+++\\n" + 
                 "draft = false \\n" + 
-                "image = \"images/story$index$_c_t.png\" \\n" + 
+                "image = \"/images/story$index$_c_t.png\" \\n" + 
                 "showonlyimage = true \\n" + 
                 "title = \"第$index$課\" \\n" + 
                 "weight = $index$ \\n" + 
-                "path = \"data/story$index$.json\" \\n" + 
+                "path = \"/data/story$index$.json\" \\n" + 
                 "+++"; 
 
             for (int i = 1; i <= 100; i++) {
@@ -30,7 +30,7 @@ namespace CSharp {
                     file.WriteLine(content.Replace("$index$", i.ToString()).Replace("\\n", System.Environment.NewLine)); 
                 }
             }
-             
+             /*
             DataModel model = null;
             List<DataModel> models = new List<DataModel>();
             string lastRecord = "";
@@ -67,6 +67,7 @@ namespace CSharp {
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(jsonPath + lastRecord + ".json")) {
                 file.WriteLine(JsonConvert.SerializeObject(models).Replace("},{", "}," + System.Environment.NewLine + "{")); 
             }
+              */
         } 
     }
 }
