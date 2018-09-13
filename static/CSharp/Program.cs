@@ -13,7 +13,7 @@ namespace CSharp {
     }
     class Program {
         static void Main(string[] args) {
-
+/*
             string path = @"D:\svnbox\SocialStory\content\post\";
             string content =  
                 "+++\\n" + 
@@ -30,7 +30,7 @@ namespace CSharp {
                     file.WriteLine(content.Replace("$index$", i.ToString()).Replace("\\n", System.Environment.NewLine)); 
                 }
             }
-             /*
+             */
             DataModel model = null;
             List<DataModel> models = new List<DataModel>();
             string lastRecord = "";
@@ -54,7 +54,7 @@ namespace CSharp {
                     // Console.Write(JsonConvert.SerializeObject(models));
                     
                     using (System.IO.StreamWriter file = new System.IO.StreamWriter(jsonPath + lastRecord + ".json")) {
-                        file.WriteLine(JsonConvert.SerializeObject(models).Replace("},{", "}," + System.Environment.NewLine + "{")); 
+                        file.WriteLine(JsonConvert.SerializeObject(models).Replace(",", "," + System.Environment.NewLine)); 
                     }
                     
                     models = new List<DataModel>();
@@ -65,9 +65,9 @@ namespace CSharp {
             }
 
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(jsonPath + lastRecord + ".json")) {
-                file.WriteLine(JsonConvert.SerializeObject(models).Replace("},{", "}," + System.Environment.NewLine + "{")); 
+                file.WriteLine(JsonConvert.SerializeObject(models).Replace(",", "," + System.Environment.NewLine)); 
             }
-              */
+              
         } 
     }
 }
