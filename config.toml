@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://socialstory.netlify.com/"
 title = "社交故事"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
