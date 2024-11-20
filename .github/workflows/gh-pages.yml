@@ -1,6 +1,7 @@
 name: Github-Pages
 
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - develop
@@ -8,6 +9,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - uses: actions/checkout@v1
         with:
