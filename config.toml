@@ -1,6 +1,7 @@
 baseurl = "https://socialstory.netlify.com/"
 title = "社交故事"
 theme = "hugo-tracks-theme"
+themesDir = "themes"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
