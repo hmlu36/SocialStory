@@ -1,0 +1,11 @@
+d:\svnbox\SocialStory\static\CSharp\obj\Debug\netcoreapp2.1\static.csprojAssemblyReference.cache
+d:\svnbox\SocialStory\static\CSharp\obj\Debug\netcoreapp2.1\static.csproj.CoreCompileInputs.cache
+d:\svnbox\SocialStory\static\CSharp\obj\Debug\netcoreapp2.1\static.AssemblyInfoInputs.cache
+d:\svnbox\SocialStory\static\CSharp\obj\Debug\netcoreapp2.1\static.AssemblyInfo.cs
+D:\svnbox\SocialStory\static\CSharp\bin\Debug\netcoreapp2.1\static.deps.json
+D:\svnbox\SocialStory\static\CSharp\bin\Debug\netcoreapp2.1\static.runtimeconfig.json
+D:\svnbox\SocialStory\static\CSharp\bin\Debug\netcoreapp2.1\static.runtimeconfig.dev.json
+D:\svnbox\SocialStory\static\CSharp\bin\Debug\netcoreapp2.1\static.dll
+D:\svnbox\SocialStory\static\CSharp\bin\Debug\netcoreapp2.1\static.pdb
+D:\svnbox\SocialStory\static\CSharp\obj\Debug\netcoreapp2.1\static.dll
+D:\svnbox\SocialStory\static\CSharp\obj\Debug\netcoreapp2.1\static.pdb
