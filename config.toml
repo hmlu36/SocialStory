@@ -6,6 +6,7 @@ themesDir = "themes"
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
+publishDir = "publish"
 
 
 [params]
