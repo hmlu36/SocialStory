@@ -1,4 +1,4 @@
-baseurl = "https://socialstory.netlify.com/"
+baseurl = "https://hmlu36.github.io/SocialStory/"
 title = "社交故事"
 theme = "hugo-tracks-theme"
 themesDir = "themes"
@@ -6,7 +6,6 @@ themesDir = "themes"
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-publishDir = "publish"
 
 
 [params]
