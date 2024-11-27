@@ -1,3 +1,6 @@
 ﻿static/CSharp/.vscode
 static/CSharp/bin
 static/CSharp/obj
+/socialstory/.vscode
+/socialstory/node_modules
+/socialstory/public
